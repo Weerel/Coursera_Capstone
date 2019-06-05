@@ -1,4 +1,4 @@
-# Review the city of Toronto
+# Developing neighbourhood rating system by example of the city of Toronto
 
 ## Introduction/Business Problem
 
