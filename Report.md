@@ -2,7 +2,7 @@
 
 ## Introduction/Business Problem
 
-Clearly define a problem or an idea of your choice, where you would need to leverage the Foursquare location data to solve or execute. Remember that data science problems always target an audience and are meant to help a group of stakeholders solve a problem, so make sure that you explicitly describe your audience and why they would care about your problem.
+It is very important to find a good place where to live, where to do business. Computer science definitely can help it. This research investigates how to build recommendations systems, that can be applied to any large city ant provide information about most suitable areas to do the activities for it's users. The city of Toronto is an example how to do it. The key feature is capturing all available venues data around the city. Foursquare location data is a good opportunity fastly collect all the data. The problem to be solved is to find districts with the most advanced infrastructure. All needed places must be close with good variety. Then districts can be clustered for areas with life quality and business value above average. After all customer can explore the map with areas highlighted for their requirements.
 
 ## Data
 
