@@ -8,3 +8,5 @@ It is very important to find a good place where to live, where to do business. C
 
 
 Describe the data that you will be using to solve the problem or execute your idea. Remember that you will need to use the Foursquare location data to solve the problem or execute your idea. You can absolutely use other datasets in combination with the Foursquare location data. So make sure that you provide adequate explanation and discussion, with examples, of the data that you will be using, even if it is only Foursquare location data.
+
+![Map of Toronto](/Toronto_map.jpg)
