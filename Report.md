@@ -10,4 +10,4 @@ First of all, public data for Toronto neighbourhoods are loaded. Then not assign
 
 ![Map of Toronto](/Toronto_map.jpg)
 
-In the figure above all neighbourhoods colored by borough are shown. For each borough there is a shape estimation. Shown as polygon with red borders. Bad estimated shapes are excluded and not shown. Black dots are all available venues. Venues dataset is marked with neighbourhoods they belongs to based on its shape estimation. This is primary geodata ready for further analysis.
+In the figure above all neighbourhoods colored by borough are shown. For each neighbourhood there is a shape estimation. Shown as polygon with red borders. Bad estimated shapes are excluded and not shown. Black dots are all available venues. Venues dataset is marked with neighbourhoods they belongs to based on its shape estimation. This is primary geodata ready for further analysis.
