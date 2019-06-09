@@ -1,4 +1,12 @@
-## Introduction
+# Developing neighbourhood rating system by example of the city of Toronto
+#### Applied Data Science Capstone by IBM/Coursera
+## Table of contents
+* [Introduction](#introduction)
+* [Data](#data)
+* [Analysis](#analysis)
+* [Results and Discussion](#results)
+* [Conclusion](#conclusion)
+## Introduction <a name="introduction"></a>
 where you discuss the business problem and who would be interested in this project.
 ## Data
 where you describe the data that will be used to solve the problem and the source of the data.
