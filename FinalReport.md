@@ -3,18 +3,19 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [Data](#data)
-* [Analysis](#analysis)
-* [Results and Discussion](#results)
+* [Methodology](#methodology)
+* [Results](#results)
+* [Discussion](#discussion)
 * [Conclusion](#conclusion)
 ## Introduction <a name="introduction"></a>
 where you discuss the business problem and who would be interested in this project.
-## Data
+## Data <a name="data"></a>
 where you describe the data that will be used to solve the problem and the source of the data.
-## Methodology
+## Methodology <a name="methodology"></a>
 section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.
-## Results
+## Results <a name="results"></a>
 section where you discuss the results.
-## Discussion
+## Discussion <a name="discussion"></a>
 section where you discuss any observations you noted and any recommendations you can make based on the results.
-## Conclusion
+## Conclusion <a name="conclusion"></a>
 section where you conclude the report.
