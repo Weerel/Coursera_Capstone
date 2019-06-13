@@ -29,7 +29,13 @@ Then features are scaled and ready for clusterization. We should choose a set of
 
 In the figure above four clusters are shown. They are good separated and distinguish small neighbourhood with high density and large neighbourhood with lo density.
 
+Let's examine clusterization for origin features. First in count, area plot.
+
 ![Map of Toronto](/fig_count_volume_cluster.jpg)
+
+As we can see points are coupled and not so good for clusterization. However clusters are notable.
+
+For instance count and venues categories features are not suitable for clustering. And different clusters are not separable.
 
 ![Map of Toronto](/fig_volume_density_cluster.jpg)
 
