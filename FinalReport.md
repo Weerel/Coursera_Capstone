@@ -13,17 +13,20 @@ It is very important to find a good place where to live, where to do business. C
 First of all, public data for Toronto neighbourhoods are loaded. Then not assigned data are excluded. Then uses Foursquare API to load all venues for the entire city. It cannot be done instantly with single request due to lage amount of data and API limitations. Thus special approach is designed to collect the data needed. For neighbourhood its max radius is estimated. Then requests API for all venues within radius. It's not a single request - it's a series of paged requests. Not all points belongs to current neighbourhood. Then venue points are filtered by the neighbourhood's estimated polygon. Then venues stats are calculated such as count, distinct category count and assigned to current neighbourhood in neighbourhoods dataset. After all, neighbourhoods dataset with venues stats and venues dataset with refs to neighbourhood are available.
 
 ![Map of Toronto](/map_polygons.jpg)
+
 In the figure above all neighbourhoods are shown as circles. For each neighbourhood there is a shape estimation. Shown as polygon with red borders. If the shape is poorly estimated then it is not shown and neighbourhood is green. Otherwise neighbourhood is blue. Black dots are all available venues. Venues dataset is marked with neighbourhoods they belongs to based on its shape estimation. This is primary geodata ready for further analysis.
 ## Methodology <a name="methodology"></a>
 First of all let's check dependency for venues total count and venues categories count within neighbourhoods.
 
 ![Map of Toronto](/fig_count_cat.jpg)
+
 Figure above demonstrates it. One can see it's higly correlated. The more places available, the more it's variety. It's dependend values. Let's take into consideration only total venues count for neighbourhood.
 
 So we use neighbourhood venues count, neighbourhood area value as primary features. Additional useful feature is density = count/area.
 Then features are scaled and ready for clusterization. We should choose a set of features to be clustered. The most representative set is volume and density. Let's examine feature clusterization on plot.
 
 ![Map of Toronto](/fig_count_cat_cluster.jpg)
+
 In the figure above four clusters are shown.
 
 ![Map of Toronto](/fig_count_volume_cluster.jpg)
