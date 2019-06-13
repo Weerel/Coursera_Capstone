@@ -18,6 +18,7 @@ In the figure above all neighbourhoods are shown as circles. For each neighbourh
 First of all let's check dependency for venues total count and venues categories count within neighbourhoods.
 
 ![Map of Toronto](/fig_count_cat.jpg)
+
 Figure above demonstrates it. One can see it's higly correlated. The more places available, the more it's variety. It's dependend values. Let's take into consideration only total venues count for neighbourhood.
 
 ![Map of Toronto](/fig_count_cat_cluster.jpg)
