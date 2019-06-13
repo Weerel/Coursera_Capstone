@@ -61,7 +61,6 @@ Here is the same map on another scale. Venues points are shown to show clusteriz
 Data on man can be more transparent. It's just a parameter for the render.
 
 ## Discussion <a name="discussion"></a>
-
 As a result we can view all available features rendered on map. One can explore the map and choose neighbourhood to rent apartment or to the business. One can choose by comparing different features. However the easiest way to choose neighbourhood within good clusters.
 * The luxury cluster is yellow. It's right in the center of the city. His infrastructure is very good. The are a lot of different places. They all are close. Neighbourhoods are small.
 * The good cluster is red. It is bigger. Neighbourhoods are larger. But the infrastructure is still good.
@@ -69,4 +68,9 @@ As a result we can view all available features rendered on map. One can explore 
 * The oulier is black. This is outskirts of the city. Neighbourhood is the largest. Nevertheless the ase a few places available. It's not enough for good infrastructure.
 
 ## Conclusion <a name="conclusion"></a>
-section where you conclude the report.
+Neighbourhood rating system is developed. In this arcicle results are show by example of the city of Toronto. This work implements key features:
+* 111
+* 222
+* 333
+
+
