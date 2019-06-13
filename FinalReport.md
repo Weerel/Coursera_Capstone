@@ -27,7 +27,7 @@ Then features are scaled and ready for clusterization. We should choose a set of
 
 ![Map of Toronto](/fig_volume_density_cluster.jpg)
 
-In the figure above four clusters are shown. They are good separated and distinguish small neighbourhood with high density and large neighbourhood with lo density.
+In the figure above four clusters are shown. They are good separated and distinguish small neighbourhood with high density and large neighbourhood with low density.
 
 Let's examine clusterization for origin features. First in count, area plot.
 
@@ -58,7 +58,7 @@ Here is the same map on another scale. Venues points are shown to show clusteriz
 
 ![Map of Toronto](/map_cluster_detailed.jpg)
 
-Data on man can be more transparent. It's just a parameter for the render.
+Data on map can be more transparent. It's just a parameter for the render.
 
 ## Discussion <a name="discussion"></a>
 As a result we can view all available features rendered on map. One can explore the map and choose neighbourhood to rent apartment or to the business. One can choose by comparing different features. However the easiest way to choose neighbourhood within good clusters.
