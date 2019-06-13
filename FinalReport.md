@@ -74,4 +74,6 @@ Neighbourhood rating system is developed. In this article results are shown by e
 * All features can be viewed over map and switched dynamically
 * Additional features can be processed and viewed easily
 
+This work is the beginning. The next step is taking into account additional features provided by Foursquare API. 
+
 
