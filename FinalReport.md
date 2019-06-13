@@ -25,7 +25,7 @@ Figure above demonstrates it. One can see it's higly correlated. The more places
 So we use neighbourhood venues count, neighbourhood area value as primary features. Additional useful feature is density = count/area.
 Then features are scaled and ready for clusterization. We should choose a set of features to be clustered. The most representative set is volume and density. Let's examine feature clusterization on plot.
 
-![Map of Toronto](/fig_count_cat_cluster.jpg)
+![Map of Toronto](/fig_volume_density_cluster.jpg)
 
 In the figure above four clusters are shown. They are good separated and distinguish small neighbourhood with high density and large neighbourhood with lo density.
 
@@ -37,7 +37,7 @@ As we can see points are coupled and not so good for clusterization. However clu
 
 For instance count and venues categories features are not suitable for clustering. And different clusters are not separable.
 
-![Map of Toronto](/fig_volume_density_cluster.jpg)
+![Map of Toronto](/fig_count_cat_cluster.jpg)
 
 ## Results <a name="results"></a>
 section where you discuss the results.
