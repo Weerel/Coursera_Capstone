@@ -40,7 +40,7 @@ For instance count and venues categories features are not suitable for clusterin
 ![Map of Toronto](/fig_count_cat_cluster.jpg)
 
 ## Results <a name="results"></a>
-section where you discuss the results.
+After all interactive map to view result is prepared. One can view seleced features and final clusterization. More over new features can be added as render paramerers and can be automaticly rendered on map.
 
 ![Map of Toronto](/map_venues_count.jpg)
 ![Map of Toronto](/map_density.jpg)
