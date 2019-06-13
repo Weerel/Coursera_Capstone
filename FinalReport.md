@@ -62,7 +62,7 @@ Data on map can be more transparent. It's just a parameter for the render.
 
 ## Discussion <a name="discussion"></a>
 As a result we can view all available features rendered on map. One can explore the map and choose neighbourhood to rent apartment or to do the business. One can choose by comparing different features. However the easiest way to choose neighbourhood within good clusters.
-* The luxury cluster is yellow. It's right in the center of the city. His infrastructure is very good. The are a lot of different places. They all are close. Neighbourhoods are small.
+* The luxury cluster is yellow. It's right in the center of the city. It infrastructure is very good. The are a lot of different places. They all are close. Neighbourhoods are small.
 * The good cluster is red. It is bigger. Neighbourhoods are larger. But the infrastructure is still good.
 * The reasonable cluster is brown. It is the biggest cluster. Neighbourhoods are much larger. But the are not so much places available.
 * The oulier is black. This is outskirts of the city. Neighbourhood is the largest. Nevertheless the ase a few places available. It's not enough for good infrastructure.
