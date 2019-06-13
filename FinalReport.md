@@ -15,9 +15,10 @@ First of all, public data for Toronto neighbourhoods are loaded. Then not assign
 ![Map of Toronto](/map_polygons.jpg)
 In the figure above all neighbourhoods are shown as circles. For each neighbourhood there is a shape estimation. Shown as polygon with red borders. If the shape is poorly estimated then it is not shown and neighbourhood is green. Otherwise neighbourhood is blue. Black dots are all available venues. Venues dataset is marked with neighbourhoods they belongs to based on its shape estimation. This is primary geodata ready for further analysis.
 ## Methodology <a name="methodology"></a>
-section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.
+First of all let's check dependency for venues total count and venues categories count within neighbourhoods.
 
 ![Map of Toronto](/fig_count_cat.jpg)
+Figure above demonstrates it. One can see it's higly correlated. The more places available, the more it's variety. It's dependend values. Let's take into consideration only total venues count for neighbourhood.
 
 ![Map of Toronto](/fig_count_cat_cluster.jpg)
 
