@@ -13,13 +13,16 @@ It is very important to find a good place where to live, where to do business. C
 First of all, public data for Toronto neighbourhoods are loaded. Then not assigned data are excluded. Then uses Foursquare API to load all venues for the entire city. It cannot be done instantly with single request due to lage amount of data and API limitations. Thus special approach is designed to collect the data needed. For neighbourhood its max radius is estimated. Then requests API for all venues within radius. It's not a single request - it's a series of paged requests. Not all points belongs to current neighbourhood. Then venue points are filtered by the neighbourhood's estimated polygon. Then venues stats are calculated such as count, distinct category count and assigned to current neighbourhood in neighbourhoods dataset. After all, neighbourhoods dataset with venues stats and venues dataset with refs to neighbourhood are available.
 
 ![Map of Toronto](/map_polygons.jpg)
-In the figure above all neighbourhoods colored by borough are shown. For each neighbourhood there is a shape estimation. Shown as polygon with red borders. Bad estimated shapes are excluded and not shown. Black dots are all available venues. Venues dataset is marked with neighbourhoods they belongs to based on its shape estimation. This is primary geodata ready for further analysis.
+In the figure above all neighbourhoods are shown as circles. For each neighbourhood there is a shape estimation. Shown as polygon with red borders. If the shape is poorly estimated then it is not shown and neighbourhood is green. Otherwise neighbourhood is blue. Black dots are all available venues. Venues dataset is marked with neighbourhoods they belongs to based on its shape estimation. This is primary geodata ready for further analysis.
 ## Methodology <a name="methodology"></a>
 section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.
 
 ![Map of Toronto](/fig_count_cat.jpg)
+
 ![Map of Toronto](/fig_count_cat_cluster.jpg)
+
 ![Map of Toronto](/fig_count_volume_cluster.jpg)
+
 ![Map of Toronto](/fig_volume_density_cluster.jpg)
 
 ## Results <a name="results"></a>
