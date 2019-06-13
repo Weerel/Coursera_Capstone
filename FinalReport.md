@@ -58,6 +58,8 @@ Here is the same map on another scale. Venues points are shown to show clusteriz
 
 ![Map of Toronto](/map_cluster_detailed.jpg)
 
+Data on man can be more transparent. It's just a parameter for the render.
+
 ## Discussion <a name="discussion"></a>
 section where you discuss any observations you noted and any recommendations you can make based on the results.
 ## Conclusion <a name="conclusion"></a>
