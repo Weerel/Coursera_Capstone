@@ -54,6 +54,8 @@ Here is final clusterization map:
 
 ![Map of Toronto](/map_cluster.jpg)
 
+Here is the same map on another scale. Venues points are shown to show clusterization quality.
+
 ![Map of Toronto](/map_cluster_detailed.jpg)
 
 ## Discussion <a name="discussion"></a>
