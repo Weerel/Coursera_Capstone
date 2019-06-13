@@ -27,7 +27,7 @@ Then features are scaled and ready for clusterization. We should choose a set of
 
 ![Map of Toronto](/fig_count_cat_cluster.jpg)
 
-In the figure above four clusters are shown.
+In the figure above four clusters are shown. They are good separated and distinguish small neighbourhood with high density and large neighbourhood with lo density.
 
 ![Map of Toronto](/fig_count_volume_cluster.jpg)
 
