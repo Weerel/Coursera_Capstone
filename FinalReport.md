@@ -68,9 +68,10 @@ As a result we can view all available features rendered on map. One can explore 
 * The oulier is black. This is outskirts of the city. Neighbourhood is the largest. Nevertheless the ase a few places available. It's not enough for good infrastructure.
 
 ## Conclusion <a name="conclusion"></a>
-Neighbourhood rating system is developed. In this arcicle results are show by example of the city of Toronto. This work implements key features:
-* 111
-* 222
-* 333
+Neighbourhood rating system is developed. In this article results are shown by example of the city of Toronto. This work implements key features such as:
+* Approach applied to any city
+* Neighbourhood's area regions automatically detected
+* All features can be viewed over map and switched dynamically
+* Additional features can be processed and viewed easily
 
 
